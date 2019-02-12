@@ -5,8 +5,10 @@ jobs:
       - image: eldesh/coq:8.8.2
     steps:
       - checkout
-      - run: make
-      - run: make html
+      - run: |
+          source ~/.profile
+          make
+          make html
       - persist_to_workspace:
           root: html
           paths: .
