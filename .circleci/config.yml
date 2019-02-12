@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: eldesh/docker-coq:8.8.2
+      - image: eldesh/coq:8.8.2
     steps:
       - checkout
       - run: ./configure.sh
