@@ -14,3 +14,5 @@ make
 ```
 
 ## API Documentation
+
+https://yoshihiro503.github.io/coq_template/toc.html
